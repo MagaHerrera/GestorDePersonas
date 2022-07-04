@@ -23,7 +23,7 @@ namespace ConsoleApp1.Repositorio
             var personaExiste = Personas.ContainsKey(numeroDocumento);
             if (!personaExiste)
             {
-                Personas[numeroDocumento] = personasss;
+                Personas[numeroDocumento] = persona;
             }
         }
 
