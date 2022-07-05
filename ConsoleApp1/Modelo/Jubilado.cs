@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.Modelo
 {
-    public class Jubilado
+    public class Jubilado : Persona
     {
         public int AniosDeAporte { get; set; }
         public char Categoria { get; set; } // tipo char representa un caracter
