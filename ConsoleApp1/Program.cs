@@ -5,7 +5,7 @@ using ConsoleApp1.Repositorio;
 //Insertar personas en una base de datos, mostrar datos de una determinada persona o
 //de todas las personas.
 
-var repositorio = new NuevoRepositorio();
+var repositorio = new RepositorioDePersonas();
 
 //Le pido al usuario los datos de una persona para agregar
 //El usuario debería elegir el tipo de persona a agregar
